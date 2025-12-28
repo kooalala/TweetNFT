@@ -1,0 +1,7 @@
+{
+  "name": "TweetBase Tokenizer",
+  "description": "Tokenize your viral tweets (10k+ views) into high-value NFTs on the Base blockchain. Verify, mint, and trade tweet-backed digital assets.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
