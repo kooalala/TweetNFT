@@ -1,0 +1,31 @@
+{
+    "accountAssociation": {
+      "header": "",
+      "payload": "",
+      "signature": ""
+    },
+    "miniapp": {
+      "version": "1",
+      "name": "TweetNFT",
+      "homeUrl": "https://tweetnft.vercel.app",
+      "iconUrl": "https://tweetnft.vercel.app/icon.png",
+      "splashImageUrl": "https://tweetnft.vercel.app/splash.png",
+      "splashBackgroundColor": "#0f172a",
+      "webhookUrl": "https://tweetnft.vercel.app/api/webhook",
+      "subtitle": "Mint tweets as NFTs",
+      "description": "Turn viral tweets into collectible NFTs on Base blockchain",
+      "screenshotUrls": [
+        "https://tweetnft.vercel.app/screenshot1.png",
+        "https://tweetnft.vercel.app/screenshot2.png",
+        "https://tweetnft.vercel.app/screenshot3.png"
+      ],
+      "primaryCategory": "nft",
+      "tags": ["nft", "twitter", "social", "creator"],
+      "heroImageUrl": "https://tweetnft.vercel.app/hero.png",
+      "tagline": "Turn tweets into digital assets",
+      "ogTitle": "TweetNFT - Mint Tweets as NFTs",
+      "ogDescription": "Turn viral tweets into collectible NFTs on Base",
+      "ogImageUrl": "https://tweetnft.vercel.app/og-image.png",
+      "noindex": false
+    }
+  }

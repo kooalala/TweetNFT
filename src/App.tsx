@@ -3,6 +3,8 @@ import { ethers } from "ethers";
 import { CONFIG } from "./constants";
 import TweetNFTABI from "./abis/TweetNFTABI.json";
 import MarketplaceABI from "./abis/MarketplaceABI.json";
+import { sdk } from "@farcaster/miniapp-sdk";
+
 // REPLACE THE LUCIDE IMPORT WITH THIS:
 const Twitter = ({ size, color }: any) => (
   <span style={{ fontSize: size, color }}>🐦</span>
@@ -27,6 +29,11 @@ const X = ({ size, color }: any) => (
 );
 
 function App() {
+  // Base Mini App SDK - tells Base "app is ready"
+  useEffect(() => {
+    sdk.actions.ready();
+  }, []);
+
   const [userAddress, setUserAddress] = useState("");
   const [tweetUrl, setTweetUrl] = useState("");
   const [tweetData, setTweetData] = useState<any>(null);
